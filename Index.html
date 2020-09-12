@@ -9,6 +9,41 @@
 .header {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 40px;
+  padding: 30px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
 </style>
@@ -18,26 +53,25 @@
 <div class="header">
 Group name<br>
 </div>
-<nav>
-  <ul>
-    <li><a href="Index.html">The Team</a></li>
-    <li><a href="Jobs.html">Jobs</a></li>
-    <li><a href="Industry.html">Industry Data</a></li>
-    <li><a href="Interview.html">Interview</a></li>
-    <li><a href="Tehcnologies.html">Technologies</a></li>
-    <li><a href="Project.html">Project</a></li>
-    <li><a href="References.html">References</a></li>
-</ul></nav>
 
+<div class="sidenav">
+    <a href="Index.html">The Team</a>
+    <a href="Jobs.html">Jobs</a>
+    <a href="Industry.html">Industry Data</a>
+    <a href="Interview.html">Interview</a>
+    <a href="Tehcnologies.html">Technologies</a>
+    <a href="Project.html">Project</a>
+    <a href="References.html">References</a>
+</div>
 
+<div class="content">
   <a href="https://luke-bleeser.github.io/index.html">Luke Bleeser</a>
   <a href="https://radhikachopra.github.io/Index.html">Radhika Chopra</a>
   <a href="https://s3658061.github.io/">Xavier Occhipinti</a>
   <a href="https://zenfarhat.github.io/Assignment1/">Zen Farhat</a>
   <a href="https://s3842119.github.io/index.html">Suhayb Walton</a>
   <a href>Soe Htet</a>
-
-
+</div>
 
 
 </body>
