@@ -19,6 +19,31 @@
   left: 0;
 }
 
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-color: #FFF5EE;
+  overflow-x: hidden;
+  padding-top: 200px;
+  padding-left: 30px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
 
 .content {
   margin-left: 210px;
@@ -47,16 +72,38 @@ p {
   padding-top: 10px;
 }
 
+#interview {
+  padding-left: 10px;
+
+}
+
 </style>
 </head>
 
 <body>
+
+  <div class="header">
+  Group name<br>
+  </div>
+
+  <div class="sidenav">
+  <a href="Index.html">Home</a>
+  <a href="Jobs.html">Our Jobs</a>
+  <a href="Interview.html">The Interview</a>
+  <a href="Industry.html">Industry Data</a>
+  <a href="Technologies.html">Technologies</a>
+  <a href="Project.html">Our Project</a>
+  <a href="References.html">References</a>
+
+</div>
+
   <div class="content">
 
   <div id="heading">
   Interview with an IT professional<br><br>
 </div>
 
+  <div id="interview">
   <p>What kind of work is done by the IT professional?<br><br>
   They are a lead AI programmer and developer, they develop AI, VR experiences and mobile applications for their start-up company called PlayingForward. <br>
   They are currently developing an AR app for physical therapy.<br><br>
@@ -73,6 +120,8 @@ p {
   What aspects of your position do you find most challenging?<br><br>
 
   Coming up with solutions to problems, working with cutting edge technology without any documentation to help whatsoever.<br><br></p>
+
+  </div>
 
 </div>
 </body>
