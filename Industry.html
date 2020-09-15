@@ -6,47 +6,50 @@
 <style>
 
 
+
 .header {
   font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   font-weight: 600;
-  position: absolute;
+  position: fixed;
   float: left;
   padding-top: 30px;
   padding-left: 32px;
+  padding-bottom: 30px;
   width: 200px;
   top: 0;
   left: 0;
 }
 
-.sidenav ul {
+.sidenav {
   height: 100%;
   width: 200px;
-  float: left;
   position: fixed;
   z-index: -1;
   top: 0;
   left: 0;
   background-color: #FFF5EE;
   overflow-x: hidden;
-  padding-top: 250px;
+  padding-top: 200px;
+  padding-left: 30px;
 }
 
-.sidenav li {
-  padding: 6px 6px 6px 32px;
-  text-decoration: none;
+.sidenav a {
+  padding: 6px 8px 6px 16px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  color: #2F4F4F;
+  font-size: 14px;
+  text-decoration: none;
+  color: #818181;
   display: block;
 }
 
-.sidenav li:hover {
-  color: #778899;
+.sidenav a:hover {
+  color: #f1f1f1;
 }
 
 .content {
-  margin-left: 200px;
+  margin-left: 210px;
+  width: auto;
 }
 
 h1 {
@@ -58,20 +61,6 @@ h1 {
 p {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
-
-}
-
-a {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  color: #DEB887;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #E9967A;
-  background-color: transparent;
-  text-decoration: none;
 }
 
 #heading {
@@ -79,7 +68,8 @@ a:hover {
   font-size: 26px;
   font-style: italic;
   font-weight: bold;
-  padding: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 </style>
