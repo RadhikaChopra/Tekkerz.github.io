@@ -5,45 +5,22 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 <style>
 
-.header {
+.sidebar {
+  position: fixed;
+  width: 200px;
+  top: 0;
+  left: 0;
+  botton: 0;
+  background-color: #FFF5EE
+
+
+}
+.sibebar h2{
   font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   font-weight: 600;
-  position: fixed;
-  float: left;
-  padding-top: 30px;
-  padding-left: 32px;
-  padding-bottom: 30px;
-  width: 200px;
-  top: 0;
-  left: 0;
 }
 
-.sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  background-color: #FFF5EE;
-  overflow-x: hidden;
-  padding-top: 200px;
-  padding-left: 30px;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  text-decoration: none;
-  color: #818181;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
 
 .content {
   margin-left: 210px;
@@ -79,8 +56,8 @@ p {
   Group name<br>
   </div>
 
-<div class="sidenav">
-
+  <div class="sidebar">
+  <h2>Group name<h2>
   <a href="Index.html">Home</a>
   <a href="Jobs.html">Our Jobs</a>
   <a href="Interview.html">The Interview</a>
