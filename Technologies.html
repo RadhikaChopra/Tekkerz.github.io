@@ -117,16 +117,17 @@ p {
 }
 
 .accordian_text {
-  background: #ffffff
+  overflow: hidden;
+  background-color: : #ffffff
   display: none;
 
 }
 
 .accordian_input{
-
+  display: none;
 }
 
-.accordian_input:checked .accordian_text {
+.accordian_input:checked ~ .accordian_text {
   display: block;
 }
 
