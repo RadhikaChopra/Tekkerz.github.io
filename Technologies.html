@@ -74,7 +74,7 @@ p {
 
 }
 
-.accordian {
+.tech {
   max-width: 500px;
   background-color: #FFA500;
   border-radius: 2px;
@@ -82,54 +82,25 @@ p {
 
 }
 
-.accordian_label, .accordian_text {
+.label .text {
   padding: 14px 20px;
 
 }
 
-.accordian_label {
+.label {
+  padding: 14px 20px;
   display: block;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-style: italic;
   font-weight: bold;
-  cursor: pointer;
-  position: relative;
-  transition: background 0.1s;
 
 }
 
-.accordian_label:hover {
-  background: rgba(0, 0, 0, 0.1);
+.text {
+  background-color: #ffffff;
 }
 
-.accordian_label::after{
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 20px;
-  width: 12px;
-  height: 6px;
-  background-image:url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF;" /></svg>');
-  background-size: contain;
-  transition: transform 0.4s;
-}
-
-.accordian_text {
-  overflow: hidden;
-  background-color: : #ffffff
-  display: none;
-
-}
-
-.accordian_input{
-  display: none;
-}
-
-.accordian_input:checked ~ .accordian_text {
-  display: block;
-}
 
 </style>
 </head>
@@ -152,12 +123,11 @@ p {
 
 <h1>Modern IT</h1>
 
-<div class="accordian">
+<div class="tech">
 
 <div>
-  <input type="radio" name="tech" id="tech1" class="accordian_input">
-  <label for="tech1" class="accordian_label">Cloud, services, servers</label>
-  <div class="accordian_text">
+  <div class="label">Cloud, services, servers</label>
+  <div class="text">
       <h2>What does it do? </h2>
     <p>Cloud services, and servers is a very broad area relating to data transfer and storage through either a physical or virtual server. Both services are a way to process and store data in varying applications. State of the art technology for both types vary and are classified by many factors e.g. Size of storage, cybersecurity, speed, and ease of access.<br>
        Physical servers have been around now for a long period of time and are used to store anything from data to media all the way down to web servers. Cloud servers are however a much newer phenomena and provide an alternative to storing things in a physical location. The cloud is a way to connect to several servers and lease part of an application or software service.<br>
