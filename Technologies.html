@@ -116,11 +116,16 @@ p {
 
 .accordian_text {
   background: #ffffff
+  display: none;
 
 }
 
 .accordian_input{
 display: none;
+}
+
+.accordian_input:checked ~ .accordian_text {
+  display: block;
 }
 
 </style>
